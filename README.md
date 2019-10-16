@@ -22,6 +22,15 @@ laboratories and research centers in Turkey.
   * [Halil Şahiner](https://github.com/halilsahiner)
   * [Abdullah Talayhan](https://github.com/bufferhe4d)
 
+### Supervisor
+
+  * [Can Alkan](http://www.cs.bilkent.edu.tr/~calkan/)
+
+### Jury Members
+
+  * [Abdullah Ercüment Çiçek](http://ciceklab.cs.bilkent.edu.tr/ercumentcicek/)
+  * [Hamdi Dibeklioğlu](http://www.cs.bilkent.edu.tr/~dibeklioglu/)
+
 ### Reports
 
 [Project Specifications](https://projectlibra.dev/reports/LIBRAProjectSpecification.pdf)
