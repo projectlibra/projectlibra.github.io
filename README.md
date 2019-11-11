@@ -35,7 +35,9 @@ laboratories and research centers in Turkey.
 
 [Project Specifications](https://projectlibra.dev/reports/LIBRAProjectSpecification.pdf)
 
-Analysis *in progress*
+[Analysis](https://projectlibra.dev/reports/LIBRAAnalysis.pdf)
+
+High-Level Design *in progress*
 
 ### Contact
 
