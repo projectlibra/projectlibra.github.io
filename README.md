@@ -30,6 +30,10 @@ laboratories and research centers in Turkey.
 
   * [Abdullah Ercüment Çiçek](http://ciceklab.cs.bilkent.edu.tr/ercumentcicek/)
   * [Hamdi Dibeklioğlu](http://www.cs.bilkent.edu.tr/~dibeklioglu/)
+  
+### Innovation Expert
+
+  * [Mahmut Şamil Sağıroğlu](https://www.linkedin.com/in/mahmut-%C5%9Famil-sagiroglu-919730a4/)
 
 ### Reports
 
