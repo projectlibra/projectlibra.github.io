@@ -121,23 +121,22 @@ In this page visitors will be presented with two options: If the visitor has an 
 
 ## 3) Usage of LIBRA: VCF Upload, Annotation and Filtering
 ### My Projects
-After logging in, users will be directed to the projects page. In this page they will have one project by default for quick start on a random project. Additionally, users can create their custom projects. When they press the "Create New Project" button, a dialog will pop up which will ask the user to fill in the Project Name, Project Description and optionally the disease associated with the project.
+After logging in, users will be directed to the projects page. In this page they will have one project by default for quick start on a random project. Additionally, users can create their custom projects.
 
 ![alt text](images/scr4.png)
 
 ### Create a New Project
-By clicking "CREATE NEW PROJECT" button, the user can create a new project with its description and associated disease.
+When the users press the "CREATE NEW PROJECT" button, a dialog will pop up which will ask the user to fill in the Project Name, Project Description and optionally the disease associated with the project.
 
 ![alt text](images/scr5.png)
 
 ### Project Details
-By clicking "More" at the top right corner of the project box, the user can redirect to project details page
-On the right side of this page, there is a menu that contains summary, upload, notes and patients items.
+By clicking "More" at the top right corner of the project box, the user can redirect to project details page. On the right side of this page, there is a menu that contains summary, upload, notes and patients items.
 
 ![alt text](images/scr6.png)
 
 #### Project summary
-User is redirected to this page after clicking on a specific project on the "Projects Page." User will first be presented the VCF table. If there are no VCF files uploaded to the project instead of seeing the VCF table the user will see "You haven't uploaded any files yet." If there is a VCF file uploaded to the project, however, they will see two pie charts indicating the presence of variants in the 1000 Genomes and dbsnp databases, the annotated VCF file presented in a table and a filter to select certain tuples of the VCF table based on frequency, scenario and impact of the variants.
+User is redirected to this page after clicking on a specific project on the "Projects Page." User will first be presented the VCF table. If there are no VCF files uploaded to the project instead of seeing the VCF table the user will see "You haven't uploaded any files yet." If there is a VCF file uploaded to the project, however, they will see two pie charts indicating the presence of variants in the 1000 Genomes and dbsnp databases, the annotated VCF file presented in a table and a filter to select certain tuples of the VCF table based on frequency, scenario and impact of the variants, as shown in the following image:
 
 ![alt text](images/scr7.png)
 
