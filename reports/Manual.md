@@ -168,8 +168,14 @@ This page is where the user uploads the VCF files. On the top of the page there 
  After the files are successfully uploaded the annotation process will take place in the backend and the users will be unable to interact with the dropzone.
 
 #### Project Notes
+The user can add any notes related to the project in this tab. The notes are provided with cool formatting as well.
+
+![alt text](images/scr8.png)
 
 #### ProjectPatients
+After uploading a batch vcf file, the patients will be automatically created, and the user can choose whether the patients have the associated disease of the project as well, by clicking on the checkboxes, as shown in the figure. In this example, the case is on ALS disease.
+
+![alt text](images/scr9.png)
 
 ## 4) Usage of LIBRA: Match Maker
 
