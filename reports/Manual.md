@@ -4,7 +4,7 @@
 
 This section explains the procedure of building and deploying LIBRA from the github source files.
 
-There will be many code snippets that explains the building process. each snippet has the following format:
+There will be many code snippets that explain the building process. Each snippet has the following format:
 
 
 - First the github repository has to be obtained.
@@ -47,7 +47,7 @@ You must change the host IP embedded in the file **host.js** for the backend ser
 var host = 'Backend Server IP:PORT'
 ~~~
 
-#### Runnning the client
+#### Running the client
 
 You can run the client via npm and the landing page will be displayed in the default browser:
 
@@ -105,7 +105,7 @@ $ flask run --host 0.0.0.0 --port PORT
 
 ## 2) Usage of LIBRA: Registration and Profile
 ### Homepage
-This is the landing page potential users will be greeted with when they click on our website on a web browser. Visitors can proceed to sign in or sign up by pressing the sign in button in the navigation bar on top.
+This is the landing page potential users will be greeted with when they click on our website on a web browser. Visitors can proceed to sign up by pressing the Get Started button in the center.
 
 ![alt text](images/scr1.png)
 
