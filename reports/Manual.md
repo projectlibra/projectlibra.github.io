@@ -146,27 +146,46 @@ Match maker contains facilities which are creating a patient with diagnosis and 
 
 ### Create New Patient
 
+![alt text](images/createPatient.png)
+
 To create a new patient click "My Project" button on the navigator. After that, press "Create New Patient" button. Fill "Patient Name" and "Diagnosis".  Type HPO Tags via search bar and select from dropdown menu. You can delete tags by pressing "Clean Tags" button. After adding all phenotypes, click "Create" button. 
+
+![alt text](images/create2.png)
 
 ### See Overall View for Patients
 
 Click "My Project" button on the navigator. Below of the  "Your Patient", you see all patients. For each patient you see patient name, patient id and patient diagnosis.
 
+![alt text](images/preview.png)
+
+
 ### See Details for a Patient
 
 On the overall view for patient, click detail button of correspondent patient. You will see same information with preview. Also you will see disease related phenotypes and affected gene names. If you click a phenotype, you can see details of phenotype and traverse on phenotypes. If you click gene name, you are redirected to gene information.
+
+![alt text](images/seedetails.png)
 
 ### Editing a Patient
 
 On the detailed Patient page, click "Edit Patient" button. You can give new name to the patient. You can change diagnosis via text box. You can add new phenotype via search bar. Also you can remove phenotypes by uncheck the checkbox of corresponded phenotype.
 
+![alt text](images/edit1.png)
+
+![alt text](images/edit2.png)
+
+
 ### Get Highly Affected Genes For a Patient 
 
 After uploading the vcf file, click patient logo. Select name of the patient. Automatically highly affected genes will be added to the patient.
 
+![alt text](images/highlyEff.png)
+
+
 ### HPO traverser
 
 When you click phenotype name on the detailed patient page, you will be directed to the HPO traverser. On the traverser, you will see name of the phenotype, definition of the phenotype and relative phenotypes. You can traverse parents and children by clicking name of that phenotype. 
+
+![alt text](images/phenotype.png)
 
 ### Automated Similarity Notification System
 
@@ -180,3 +199,5 @@ On  the detailed Patient page, click "Go Manual Matchmaker" link. There are thre
 
 Click "My Profile" button on the navigator. After that, enter value between 0 and 1 for both "Phenotype Similarity Threshold" and "Genotype Similarity Threshold". Click "Save Changes". New configuration affects Automated Similarity Notification System.
 
+
+![alt text](images/conf.png)
