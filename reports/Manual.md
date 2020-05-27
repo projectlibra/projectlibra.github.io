@@ -167,6 +167,8 @@ This page is where the user uploads the VCF files. On the top of the page there 
 
 We show the procedure for batch upload:
 
+![alt text](images/scr17.png)
+
 ![alt text](images/scr14.png)
 
 ![alt text](images/scr15.png)
