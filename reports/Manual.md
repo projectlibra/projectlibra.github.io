@@ -69,7 +69,7 @@ $ source libra/bin/activate
 $ deactivate
 ~~~
 
-#### Installing dependencies
+#### Installing dependencies
 
 ~~~bash
 $ cd libra-backend
@@ -86,7 +86,7 @@ After the setup, the configuration line under **app.py** has to be changed with 
 postgres://user_name:password@db_server_ip:port/db_name
 ~~~
 
-#### Setting up SnpEff
+#### Setting up SnpEff
 
 We consult you to [SnpEff installation manual](http://snpeff.sourceforge.net/SnpEff_manual.html) 
 
