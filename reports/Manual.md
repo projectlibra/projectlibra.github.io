@@ -142,6 +142,8 @@ User is redirected to this page after clicking on a specific project on the "Pro
 
 Because of the immense size of VCF files, initially only 1000 elements of the table will be uploaded to the UI. The user can select to add another 1000 tuples to UI table by pressing on the "Load More" button. They can repeat this operation as many times as they want until the entire file is uploaded to the UI. 
 
+![alt text](images/scr18.png)
+
 To the left of the VCF table there are three filters. These filters are scenario, frequency and impact filters. Users can select the options presented in the filters and when they are done selecting the options they can press on the "Apply Filters" button to view tuples on the VCF table that fit into the selected options. The scenario filters select dominant or recessive variants.
 
 ![alt text](images/scr12.png)
