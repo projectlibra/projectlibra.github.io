@@ -192,7 +192,7 @@ After uploading a batch vcf file, the patients will be automatically created, an
 
 ## 4) Usage of LIBRA: Match Maker
 
-Match maker contains facilities which are creating a patient with diagnosis and human phenotype ontology(HPO) terms, showing over all view for patients, detailed view for a patient,  getting gene ontology similarity from VCF annotation,  HPO traverser, automated similarity notification system, manual similarity notification system, similarity threshold configuration.
+Match maker contains facilities which are: creating a patient with diagnosis and human phenotype ontology(HPO) terms, showing over all view for patients, showing detailed view for a patient, getting gene ontology similarity from VCF annotation, accessing HPO traverser, accessing automated similarity notification system, accessing manual similarity notification system, and changing similarity threshold configuration.
 
 ### Create New Patient
 
@@ -204,32 +204,30 @@ To create a new patient click "My Project" button on the navigator. After that, 
 
 ### See Overall View for Patients
 
-Click "My Project" button on the navigator. Below of the  "Your Patient", you see all patients. For each patient you see patient name, patient id and patient diagnosis.
+Click "My Project" button on the navigator. Below "Your Patient", you see all patients. For each patient you see patient name, patient id and patient diagnosis.
 
 ![alt text](images/preview.png)
 
 
 ### See Details for a Patient
 
-On the overall view for patient, click detail button of correspondent patient. You will see same information with preview. Also you will see disease related phenotypes and affected gene names. If you click a phenotype, you can see details of phenotype and traverse on phenotypes. If you click gene name, you are redirected to gene information.
+On the overall view for patient, click detail button of correspondent patient. You will see the same information with preview. Also you will see disease related phenotypes and affected gene names. If you click a phenotype, you can see details of phenotype and traverse on phenotypes. If you click gene name, you are redirected to gene information.
 
 ![alt text](images/seedetails.png)
 
 ### Editing a Patient
 
-On the detailed Patient page, click "Edit Patient" button. You can give new name to the patient. You can change diagnosis via text box. You can add new phenotype via search bar. Also you can remove phenotypes by uncheck the checkbox of corresponded phenotype.
+On the detailed Patient page, click "Edit Patient" button. You can give a new name to the patient. You can change diagnosis via text box. You can add new phenotype via search bar. Also you can remove phenotypes by unchecking the checkbox of corresponded phenotype.
 
 ![alt text](images/edit1.png)
 
 ![alt text](images/edit2.png)
-
 
 ### Get Highly Affected Genes For a Patient 
 
 After uploading the vcf file, click patient logo. Select name of the patient. Automatically highly affected genes will be added to the patient.
 
 ![alt text](images/highlyEff.png)
-
 
 ### HPO traverser
 
@@ -239,15 +237,14 @@ When you click phenotype name on the detailed patient page, you will be directed
 
 ### Automated Similarity Notification System
 
-According to the threshold, if there is similar patient to the your patient, you will automatically get an e-mail which inform you about contact info of doctor who has similar patient. Also e-mail indicates both HPO similarity and GO similarity.  
+According to the threshold, if there is a similar patient to your patient, you will automatically get an e-mail which informs you about contact info of doctor who has the similar patient. Also e-mail indicates both the HPO similarity and GO similarity.  
 
 ### Manual Similarity System
 
-On  the detailed Patient page, click "Go Manual Matchmaker" link. There are three different system to use. Firstly, you can choose some phenotypes and search patient for that phenotypes and click "Run Manual Matchmaker" button. It returns proper patients for the query. Secondly, you can list patients which are most similar to the patient according to phenotype by clicking "Run HPO Matchmaker". Finally,  you can list patients which are most similar to the patient according to affected gene  by clicking "Run GO Matchmaker".
+On the detailed Patient page, click "Go Manual Matchmaker" link. There are three different systems to use. Firstly, you can choose some phenotypes and search patients with those phenotypes and click "Run Manual Matchmaker" button. It returns proper patients for the query. Secondly, you can list patients which are most similar to the patient according to phenotype by clicking "Run HPO Matchmaker". Finally, you can list patients which are most similar to the patient according to affected genes  by clicking "Run GO Matchmaker".
 
 ### Similarity Threshold Configuration
 
 Click "My Profile" button on the navigator. After that, enter value between 0 and 1 for both "Phenotype Similarity Threshold" and "Genotype Similarity Threshold". Click "Save Changes". New configuration affects Automated Similarity Notification System.
-
 
 ![alt text](images/conf.png)
