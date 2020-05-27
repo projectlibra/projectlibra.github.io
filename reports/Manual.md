@@ -157,15 +157,23 @@ Impact filters select tuples with high, moderate, low or modifier putative impac
 
 Scenario and frequency filters are radio button groups, so, the user will be able to only pick one of the options presented there for each filter. Impact filter is a checkbox group, so, the user can select a combination of the impacts.
 #### VCF upload
-This page is where the user uploads the VCF files. On the top of the page there is a dropdown menu that has the options none, batch upload or specific patients. Below that is the dropzone for the file upload. The users can drag and drop one or more VCF files into the dropzone. Based on the option selected on the dropdown menu the upload procedure will work differently. 
+This page is where the user uploads the VCF files. On the top of the page there is a dropdown menu that has the options none, batch upload or specific patients. Below that is the dropzone for the file upload. The users can drag and drop one or more VCF files into the dropzone. Based on the option selected on the dropdown menu the upload procedure will work differently: 
  
- If the user selected none option ...
+* If the user selected none option, then the uploaded VCF will not be related to any patient. It will be used for statistical purposes only.
  
- If the user selected the batch upload option...
+* If the user selected the batch upload option, the uploaded VCF has two or more patients inside, and they all will have automatically created profiles in the system.
  
- If the user selected a specific patient ...
- 
- After the files are successfully uploaded the annotation process will take place in the backend and the users will be unable to interact with the dropzone.
+* If the user selected a specific patient, data would be imported for that patient from another project to the current one.
+
+We show the procedure for batch upload:
+
+![alt text](images/scr14.png)
+
+![alt text](images/scr15.png)
+
+After the files are successfully uploaded the annotation process will take place in the backend and the users will be unable to interact with the dropzone.
+
+![alt text](images/scr16.png)
 
 #### Project Notes
 The user can add any notes related to the project in this tab. The notes are provided with cool formatting as well.
