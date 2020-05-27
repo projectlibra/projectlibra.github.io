@@ -104,8 +104,41 @@ $ flask run --host 0.0.0.0 --port PORT
 ~~~
 
 ## 2) Usage of LIBRA: Registration and Profile
+### Homepage
+This is the landing page potential users will be greeted with when they click on our website on a web browser. Visitors can proceed to sign in or sign up by pressing the sign in button in the navigation bar on top.
+
+### Login
+In this page visitors will be presented with two options: If the visitor has an account they can proceed to log in by entering their username and password or if they do not have an account they can choose to create one by clicking on the sign up button.
+
+### Sign Up
+In this page, to create a new users visitors will have to fill in the required input fields. These fields are username, name, email address, password and password confirmation. After clicking sign up, users will be redirected to the index page to login their accounts.
 
 ## 3) Usage of LIBRA: VCF Upload, Annotation and Filtering
+### My Projects
+After logging in, users will be directed to the projects page. In this page they will have one project by default for quick start on a random project. Additionally, users can create their custom projects. When they press the "Create New Project" button, a dialog will pop up which will ask the user to fill in the Project Name, Project Description and optionally the disease associated with the project.
+
+### Project Details
+On the right side of this page, there is a menu that contains summary, upload, notes and patients items.
+#### Project summary
+User is redirected to this page after clicking on a specific project on the "Projects Page." User will first be presented the VCF table. If there are no VCF files uploaded to the project instead of seeing the VCF table the user will see "You haven't uploaded any files yet." If there is a VCF file uploaded to the project, however, they will see two pie charts indicating the presence of variants in the 1000 Genomes and dbsnp databases, the annotated VCF file presented in a table and a filter to select certain tuples of the VCF table based on frequency, scenario and impact of the variants.
+
+Because of the immense size of VCF files, initially only 1000 elements of the table will be uploaded to the UI. The user can select to add another 1000 tuples to UI table by pressing on the "Load More" button. They can repeat this operation as many times as they want until the entire file is uploaded to the UI. 
+
+To the left of the VCF table there are three filters. These filters are scenario, frequency and impact filters. Users can select the options presented in the filters and when they are done selecting the options they can press on the "Apply Filters" button to view tuples on the VCF table that fit into the selected options. The scenario filters select dominant or recessive variants. Frequency filter selects tuples in dbsnp or 1k Genome database. Impact filters select tuples with high, moderate, low or modifier putative impacts. Scenario and frequency filters are radio button groups, so, the user will be able to only pick one of the options presented there for each filter. Impact filter is a checkbox group, so, the user can select a combination of the impacts.
+#### VCF upload
+This page is where the user uploads the VCF files. On the top of the page there is a dropdown menu that has the options none, batch upload or specific patients. Below that is the dropzone for the file upload. The users can drag and drop one or more VCF files into the dropzone. Based on the option selected on the dropdown menu the upload procedure will work differently. 
+ 
+ If the user selected none option ...
+ 
+ If the user selected the batch upload option...
+ 
+ If the user selected a specific patient ...
+ 
+ After the files are successfully uploaded the annotation process will take place in the backend and the users will be unable to interact with the dropzone.
+
+#### Project Notes
+
+#### ProjectPatients
 
 ## 4) Usage of LIBRA: Match Maker
 
