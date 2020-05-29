@@ -237,7 +237,9 @@ When you click phenotype name on the detailed patient page, you will be directed
 
 ### Automated Similarity Notification System
 
-According to the threshold, if there is a similar patient to your patient, you will automatically get an e-mail which informs you about contact info of doctor who has the similar patient. Also e-mail indicates both the HPO similarity and GO similarity.  
+According to the threshold, if there is a similar patient to your patient, you will automatically get an e-mail which informs you about contact info of doctor who has the similar patient. Also e-mail indicates both the HPO similarity and GO similarity. 
+
+![alt text](images/libra_sim_report_email.png)
 
 ### Manual Similarity System
 
